@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dashboard.html">
+    <link rel="stylesheet" href="./login.html">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./dashboard.css">
+
+  
+<body>
+    
+    <div id="signup">
+
+<nav>
+    <div class="navbar">
+        <h1>Personal Blogging App</h1>
+        <a href="login.html">Login</a>
+    </div>
+</nav>
+
+
+
+<div class="signup-container">
+    <h1>Signup</h1>
+</div>
+
+
+<div class="signup-page">
+    <div class="signup-form">
+        <div>
+            
+        <input type="text" placeholder="First Name" id="signup-Firstname"> <br> <br>
+        <input type="text" placeholder="Last Name" id="signup-lastname" > <br> <br>
+        <input type="email" placeholder="Email" id="signup-email"> <br> <br>
+        <input type="password" placeholder="Password" id="signup-password"> <br> <br>
+        <input type="password" placeholder="Repeat Password" id="signup-repeat-password"> <br><br>
+        <button onclick="signUp()">Signup</button>
+    </div>
+
+    </div>
+</div>
+</div>
+
+
+<!-- 
+
+<div class="login" style="display: none;"> 
+<nav>
+    <div class="navbar">
+        <h1>Personal Blogging App</h1>
+        <a href="inedx.html">Signup</a>
+    </div>
+
+</nav> -->
+
+<!-- 
+
+<div class="login-container">
+    <h1>Login</h1>
+</div>
+
+
+
+<div class="signup-page">
+    <div class="signup-form">
+        <div>
+        <input type="email" placeholder="Email" id="signin-email"> <br> <br>
+        <input type="password" placeholder="Password" id="signin-password"> <br> <br>
+        <button onclick="login()">Signup</button>
+    </div>
+
+    </div>
+</div>
+
+</div>
+</div>
+ -->
+
+
+
+<div id="dashboard"style="display:none;">
+
+    <div class="dashboard-navbar">
+        <h1>Personal Blogging App</h1>
+        <h3 id="userName">Muhammad Azeem khan</h3>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+<div class="dashboard-container">
+    <h1>Dashboard</h1>
+</div>
+
+
+<div class="dashboard-page">
+
+    <div class="post-container">
+        <input type="text"  id="dashboard-title" placeholder="placeholder">
+        <input type="text"  id="dashboard-post" placeholder="whats in your mind">
+        <button onclick="saveData()">Publish Blog</button>
+    </div>
+</div>
+
+
+<div class="dashboard-post-container">
+
+    
+</div>
+</div>
+
+
+
+    <script src="app.js" type="module"></script>
+   
+</body>
+</html>
